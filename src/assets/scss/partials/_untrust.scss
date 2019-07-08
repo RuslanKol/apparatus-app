@@ -1,0 +1,187 @@
+.untrust-wrapper {
+  height: 100%;
+
+  .form-wrapper {
+    text-align: center;
+
+    h1 {
+      font-size: $size80;
+
+      @include media-breakpoint-down(sm) {
+        font-size: $size40;
+      }
+    }
+
+    p {
+      font-size: $size24;
+      font-weight: $font-weight-light;
+
+      @include media-breakpoint-down(sm) {
+        font-size: $size16;
+      }
+    }
+
+    .btn.btn-primary {
+      line-height: 24px;
+      height: $size40;
+      font-size: $size20;
+      color: white;
+
+      @include media-breakpoint-down(sm) {
+        width: 14rem;
+      }
+
+      @include media-breakpoint-down(sm) {
+        width: 12rem;
+        font-size: $size16;
+      }
+    }
+
+    form {
+      .form-group {
+        >* {
+          margin: auto;
+        }
+
+        ::placeholder {
+          /* Chrome, Firefox, Opera, Safari 10.1+ */
+          color: $gray-4;
+          font-size: 1rem;
+          font-weight: $font-weight-light;
+          opacity: 1;
+        }
+
+        :-ms-input-placeholder {
+          /* Internet Explorer 10-11 */
+          color: $gray-4;
+          font-size: 1rem;
+          font-weight: $font-weight-light;
+        }
+
+        ::-ms-input-placeholder {
+          /* Microsoft Edge */
+          color: $gray-4;
+          font-size: 1rem;
+          font-weight: $font-weight-light;
+        }
+
+        .btn.btn-primary:disabled {
+          background-color: $gray-4;
+        }
+      }
+    }
+
+    &.form-1 {
+      form {
+        margin-top: 3rem;
+
+        @include media-breakpoint-down(sm) {
+          margin-top: 2rem;
+        }
+
+        .form-group {
+          >* {
+            height: 2.5rem;
+          }
+
+          @include media-breakpoint-down(sm) {
+            margin-bottom: 1rem;
+          }
+
+          input {
+            width: 27.5rem;
+            font-weight: $font-weight-base;
+            padding-left: 0.5rem;
+
+            @include media-breakpoint-down(sm) {
+              width: 18rem;
+            }
+          }
+
+          &:last-child {
+            margin-top: 3rem;
+
+            @include media-breakpoint-down(sm) {
+              margin-top: 0;
+            }
+          }
+        }
+      }
+    }
+
+    &.form-2 {
+      form {
+        margin-top: 2rem;
+
+        .form-group {
+          >* {
+            height: 3rem;
+
+            @include media-breakpoint-down(sm) {
+              height: 2.5rem;
+            }
+          }
+
+          &:last-child {
+            margin-top: 5rem;
+
+            @include media-breakpoint-down(sm) {
+              margin-top: 4rem;
+            }
+          }
+
+          .form-control {
+            width: 3.5rem;
+            padding: 0 0 0.5rem 0;
+            text-align: center;
+            outline: 0;
+            border-width: 0 0 2px 0;
+            border-color: $gray-6;
+            border-radius: 0;
+            font-size: $size48;
+            font-weight: $font-weight-normal;
+
+            @include media-breakpoint-down(sm) {
+              width: 3rem;
+              font-size: $size40;
+              padding-bottom: 0;
+            }
+
+            &.empty {
+              border-color: $gray-4;
+            }
+
+            &:focus {
+              border-color: $gray-6;
+            }
+          }
+
+          #digit1_form_input {
+            margin-right: 1rem;
+          }
+          #digit2_form_input {
+            margin: 0 1rem;
+          }
+          #digit3_form_input {
+            margin: 0 1rem;
+          }
+          #digit4_form_input {
+            margin-left: 1rem;
+          }
+        }
+      }
+    }
+
+    &.form-3 {
+      width: 64.5rem;
+
+      >p {
+        margin-bottom: 5rem;
+
+        @include media-breakpoint-down(sm) {
+          margin-bottom: 2rem;
+        }
+      }
+    }
+  }
+}

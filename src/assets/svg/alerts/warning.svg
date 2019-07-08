@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="16px" viewBox="0 0 18 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Success/-Error-messsages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-1541.000000, -891.000000)" fill="#916617" fill-rule="nonzero" id="Error-Copy-4">
+            <g transform="translate(1517.000000, 869.000000)">
+                <path d="M31.6498231,22.5861925 L24.3021972,35.8202588 C23.6908981,36.9345255 23.9505498,38 25.6028198,38 L39.5917675,38 C41.2479065,38 41.5039041,36.9345255 40.8923901,35.8202588 L33.3927992,22.6214432 C33.2408342,22.3241764 33.0200874,21.9957429 32.5515107,22.0000418 C32.0532719,22.0090694 31.805872,22.2889257 31.6498231,22.5861925 Z M31.6304781,26.8229422 L33.3500255,26.8229422 L33.3500255,32.8413579 L31.6304781,32.8413579 L31.6304781,26.8229422 Z M31.6304781,34.1310185 L33.3500255,34.1310185 L33.3500255,35.8505658 L31.6304781,35.8505658 L31.6304781,34.1310185 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="23px" viewBox="0 0 30 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 16</title>
+    <desc>Created with Sketch.</desc>
+    <g id="User's-View" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="00.10.00" transform="translate(-29.000000, -185.000000)" fill-rule="nonzero" stroke="currentColor">
+            <g id="Group-16" transform="translate(29.000000, 185.000000)">
+                <g id="Group-17" transform="translate(0.787683, 0.370557)" stroke-width="0.8">
+                    <rect id="Rectangle" fill="#FFFFFF" x="0.4" y="0.4" width="27.4123166" height="18.0082111" rx="1"></rect>
+                    <path d="M11.2602644,20.6890322 L16.9520522,20.6890322" id="Path-3" stroke-linecap="round"></path>
+                    <path d="M14.1061583,18.8082111 L14.1061583,20.6890322" id="Path-2"></path>
+                </g>
+                <g id="Group-24" transform="translate(19.000000, 7.000000)">
+                    <rect id="Rectangle" stroke-width="0.8" fill="#FFFFFF" x="0.668618935" y="0.715673828" width="9.93138106" height="14.8843262" rx="1"></rect>
+                    <rect id="Rectangle" fill="#EC0000" x="5.63430947" y="13.5" width="1" height="1"></rect>
+                </g>
+                <g id="Group-22" transform="translate(15.000000, 11.000000)">
+                    <rect id="Rectangle" stroke-width="0.8" fill="#FFFFFF" x="1.36665553" y="0.843128084" width="5.80392681" height="10.7568719" rx="1"></rect>
+                    <rect id="Rectangle" fill="#EC0000" x="4.26861894" y="9.5" width="1" height="1"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

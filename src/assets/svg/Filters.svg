@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="15px" viewBox="0 0 18 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="User's-View" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="00.10.00" transform="translate(-1793.000000, -564.000000)" stroke="#007AFF">
+            <g id="Group" transform="translate(1770.000000, 556.000000)">
+                <g id="Group-2" transform="translate(24.000000, 9.000000)">
+                    <path d="M2.18181818,13 L2.18181818,7.94444444" id="Shape"></path>
+                    <path d="M2.18181818,5.05555556 L2.18181818,0" id="Shape"></path>
+                    <path d="M8,13 L8,6.5" id="Shape"></path>
+                    <path d="M8,3.61111111 L8,0" id="Shape"></path>
+                    <path d="M13.8181818,13 L13.8181818,9.38888889" id="Shape"></path>
+                    <path d="M13.8181818,6.5 L13.8181818,0" id="Shape"></path>
+                    <path d="M0,7.94444444 L4.36363636,7.94444444" id="Shape"></path>
+                    <path d="M5.81818182,3.61111111 L10.1818182,3.61111111" id="Shape"></path>
+                    <path d="M11.6363636,9.38888889 L16,9.38888889" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

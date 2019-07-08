@@ -1,0 +1,143 @@
+.profile {
+  border: 1px solid $gray-8;
+  border-radius: 5px;
+  background-color: $white;
+  box-shadow: $card-shadow;
+  max-width: 37rem;
+  .profile-avatar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $gray-3;
+    height: 7.62rem;
+    width: 7.62rem;
+    border-radius: 50%;
+    border: 2px dotted $gray-3;
+  }
+  .input-group {
+    position: relative;
+    margin-bottom: $size14;
+
+    label {
+      color: $gray-4;
+      font-size: $size14;
+      margin: 0;
+    }
+
+    .form-control {
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom: 2px solid $gray-3;
+      height: 2rem;
+      padding: 0.25rem;
+      position: relative;
+      font-weight: $font-weight-base;
+      &:focus,
+      &:hover {
+        & ~ .input-group-append {
+          .edit-icon {
+            background-color: $dodger-blue;
+          }
+        }
+        &:after,
+        &:before {
+          width: 50%;
+        }
+      }
+      &:after,
+      &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 0;
+        height: 2px;
+        background-color: $dodger-blue;
+        top: 0;
+      }
+      &:after {
+        right: 0;
+      }
+      &:before {
+        left: 0;
+      }
+    }
+    .input-group-append {
+      position: absolute;
+      right: 1rem;
+      bottom: 1.5rem;
+      z-index: 2;
+
+      .edit-icon {
+        background-color: $gray-3;
+        position: absolute;
+        transition: all 0.7s;
+      }
+    }
+  }
+}
+.button-edit-avatar {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: 1px solid $dark;
+  background-color: $dark;
+  color: white;
+  cursor: pointer;
+  box-shadow: $button-shadow;
+}
+.edit-icon {
+  height: 10.95px;
+  width: 4.4px;
+  transform: rotate(-134.99deg);
+  background-color: #ffffff;
+  position: relative;
+  &:before {
+    content: '';
+    height: 4.18px;
+    width: 4.13px;
+    display: block;
+    position: absolute;
+    top: -5px;
+    background: inherit;
+  }
+  &:after {
+    content: '';
+    height: 4.25px;
+    width: 4.27px;
+    display: block;
+    position: absolute;
+    top: 12px;
+    background: inherit;
+  }
+}
+
+.times-icon {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:before,
+  &:after {
+    content: '';
+    height: 1px;
+    width: $size20;
+    background-color: $white;
+    position: absolute;
+  }
+  &:before {
+    transform: rotate(45deg);
+  }
+  &:after {
+    transform: rotate(-45deg);
+  }
+}

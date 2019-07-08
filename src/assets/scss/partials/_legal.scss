@@ -1,0 +1,217 @@
+.legal-wrapper {
+  position: relative;
+  min-height: 50vh;
+  
+  nav.with-background-legal.with-light-bg {
+    @include media-breakpoint-down(lg) {
+      
+      &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        display: block;
+        height: 100%;
+        background: $gray-7;
+        z-index: -1;
+        left: -2.5rem;
+        width: calc(100% + 5rem);
+      }
+    }
+    
+    @include media-breakpoint-down(sm) {
+      &:before {
+        left: -1.5rem;
+        width: calc(100% + 3rem);
+      }
+    }
+    
+    .navbar-toggler {
+      height: $size40;
+      
+      > h3 {
+        font-weight: 600;
+        font-size: $size20;
+        
+        @include media-breakpoint-up(md) {
+          font-size: $size24;  
+        }
+      }
+      
+      &:focus {
+        outline: none;
+      }
+
+      &:after {
+        content: '';
+        display: block;
+        height: 12px;
+        width: 20px;
+        background: url('../svg/arrow_dropdown.svg') no-repeat;
+        transition: transform 0.5s;
+      }
+
+      &.show {
+        &:after {
+          transform: rotate(180deg);
+          transition: transform 0.5s;
+        }
+      }
+    }
+  }
+
+  #tabsMenu {
+    border-right: 1px solid $gray-2;
+    
+    @include media-breakpoint-up(lg) {
+      min-height: calc(100vh - 14rem);
+    }
+
+    .nav {
+      &.nav-tabs {
+        display: block;
+        border-bottom: none;
+      }
+
+      .nav-item {
+        .nav-link {
+          font-size: $size32;
+          font-weight: 400;
+          opacity: 0.2;
+          padding: $size16 $size24;
+          border: none;
+          border-radius: 0;
+          cursor: pointer;
+          line-height: 1;
+          height: $size64;
+          color: $body-color;
+
+          &.active {
+            opacity: 1;
+            background-color: $gray-1;
+            color: $primary;
+          }
+
+          @include media-breakpoint-down(md) {
+            opacity: 1;
+            font-weight: $font-weight-light;
+            height: auto;
+            padding: $size16 $size40;
+            font-size: $size24;
+
+            &.active {
+              display: none;
+            }
+          }
+
+          @include media-breakpoint-down(sm) {
+            font-size: $size16;
+            padding: $size16 $size24;
+          }
+        }
+      }
+    }
+    
+    @include media-breakpoint-down(lg) {
+      position: absolute;
+      z-index: 1;
+      top: 2.5rem;
+      left: -2.5rem;
+      width: calc(100% + 5rem);
+      
+      .nav-tabs {
+        background: $gray-7;
+        box-shadow: 0 4px 4px 0 rgba(49,54,56,0.2);
+      }
+    }
+    
+    @include media-breakpoint-down(sm) {
+      left: -1.5rem;
+      width: calc(100% + 3rem);
+    }
+  }
+
+  .tab-content {
+    display: block;
+
+    .tab-pane {
+      font-weight: 300;
+      color: $main-op;
+      font-size: $size20;
+      max-height: 65vh;
+      overflow-y: auto;
+      overflow-x: hidden;
+      
+      @include media-breakpoint-up(lg) {
+        max-height: 70vh;  
+      }
+
+      h3 {
+        color: $primary;
+        font-size: $size32;
+        margin-bottom: $size24;
+      }
+    }
+  }
+}
+
+.legal-accept-wrapper {
+  position: fixed;
+  width: 100%;
+  bottom: 4rem;
+  height: 4rem;
+  @extend .content-padding;
+  background: #fff;
+  z-index: 2;
+
+  @include media-breakpoint-down(sm) {
+    margin-top: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    // background: rgba(0, 0, 0, 0.5);
+    // backdrop-filter: blur(10px);
+    background-color: rgba(14,14,14,0.3);
+    
+    &.cookies-wrapper {
+      display: flex;
+      align-items: center;
+      
+      > .row {
+        background: #fff;
+        padding: 1rem 0;
+        height: auto !important;
+      }
+    }
+  }
+  
+  &.legal-view {
+    @include media-breakpoint-down(sm) {
+      height: auto;
+      bottom: 0;
+      top: auto;
+      background: #fff;
+      
+      .left-part {
+        padding: 0 !important;
+      }
+      
+      .right-part {
+        margin: 0 !important;
+        margin-top: 1rem !important;
+      }
+    }  
+  }
+}
+
+.modal {
+  .legal-wrapper {
+    .accept-terms {
+      position: initial;
+      padding: 0;
+      margin-top: 2rem;
+      height: auto;
+    }
+  }
+}

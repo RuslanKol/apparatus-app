@@ -1,0 +1,51 @@
+.modal-open .modal {
+  @extend .d-flex;
+  align-items: center;
+}
+
+.modal {
+ .modal-dialog {
+    width: 100%;
+
+    .modal-content {
+      border-radius: $border-radius-base;
+      border: none;
+      
+      .modal-header {
+        border-radius: $border-radius-base;
+        padding: $size24 $size32;
+        border-color: $lines-gray;
+
+        .modal-title {
+          color: $text-head;
+          font-size: 18px;
+          font-weight: 400;
+        }
+
+        .close {
+          background: none;
+          border: none;
+          outline: none;
+          cursor: pointer;
+        }
+      }
+
+      .modal-body {
+        padding: $size24 $size24 $size16 $size24;
+      }
+
+      .modal-footer {
+        padding: $size24;
+        border-top: 0;
+      }
+    }
+  }
+}
+
+.modal-backdrop {
+  background-color: rgba(60, 72, 88, 1);
+}
+
+.modal-backdrop.show {
+  opacity: 0.7!important;
+}

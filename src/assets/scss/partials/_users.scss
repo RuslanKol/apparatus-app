@@ -1,0 +1,33 @@
+.users {
+  .status-control {
+    .button {
+      height: 2rem;
+      width: 2rem;
+      text-transform: uppercase;
+      cursor: pointer;
+      background-color: transparent;
+      padding: 0;
+      margin: 0 0.5rem 0 0;
+      outline: none;
+
+      &.active {
+        &:nth-of-type(1) {
+          background-color: $green-2;
+          border: $green-2;
+          color: white;
+        }
+        &:nth-of-type(2) {
+          background-color: $red-2;
+          border: $red-2;
+          color: white;
+        }
+      }
+      &:nth-of-type(1) {
+        color: $green-2;
+      }
+      &:nth-of-type(2) {
+        color: $red-2;
+      }
+    }
+  }
+}

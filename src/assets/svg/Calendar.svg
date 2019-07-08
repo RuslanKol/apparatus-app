@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="User's-View" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="00.10.20" transform="translate(-1823.000000, -652.000000)" stroke="#007AFF" stroke-width="0.6">
+            <g id="Group" transform="translate(1824.196869, 652.195312)">
+                <path d="M16,4 L16,16.3333333 C16,16.7015228 15.7015228,17 15.3333333,17 L0.666666667,17 C0.298476533,17 0,16.7015228 0,16.3333333 L0,4 L16,4 Z" id="Path"></path>
+                <path d="M16,4 L16,2.5 C16,2.13180987 15.7015228,1.83333333 15.3333333,1.83333333 L0.666666667,1.83333333 C0.298476533,1.83333333 0,2.13180987 0,2.5 L0,4 L16,4 Z" id="Path"></path>
+                <rect id="Rectangle" x="1.92999267" y="13.1833496" width="2" height="2"></rect>
+                <rect id="Rectangle" x="1.92999267" y="6.0666504" width="2" height="2"></rect>
+                <rect id="Rectangle" x="1.92999267" y="9.6266683" width="2" height="2"></rect>
+                <rect id="Rectangle" x="7.125" y="6.0666504" width="2" height="2"></rect>
+                <rect id="Rectangle" x="7.125" y="9.6266683" width="2" height="2"></rect>
+                <rect id="Rectangle" x="12.319987" y="6.0666504" width="2" height="2"></rect>
+                <rect id="Rectangle" x="12.319987" y="13.1833496" width="2" height="2"></rect>
+                <rect id="Rectangle" x="7.125" y="13.1833496" width="2" height="2"></rect>
+                <rect id="Rectangle" x="12.319987" y="9.6266683" width="2" height="2"></rect>
+                <path d="M2.42010943,2.57291667 L2.42010943,0.3046875" id="Path"></path>
+                <path d="M4.06740761,2.57291667 L4.06740761,0.3046875" id="Path"></path>
+                <path d="M11.9472402,2.57291667 L11.9472402,0.3046875" id="Path"></path>
+                <path d="M13.5798899,2.57291667 L13.5798899,0.3046875" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>

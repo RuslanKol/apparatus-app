@@ -1,0 +1,51 @@
+#main {
+  @extend .content-padding;
+  overflow-y: auto;
+  position: relative;
+  top: 6rem;
+  height: calc(100vh - 10rem);
+
+  // @include media-breakpoint-down(md) {
+  //   height: calc(100vh - 9rem);
+  // }
+
+  // @include media-breakpoint-down(sm) {
+  //   height: calc(100vh - 8.5rem);
+  // }
+}
+
+html.prevent-scroll,
+html.prevent-scroll body {
+  @include media-breakpoint-down(md) {
+    overflow: hidden;
+  }
+}
+
+.blurred {
+  @include media-breakpoint-down(sm) {
+    .content-wrapper {
+      > .content {
+        > .header, main, .footer {
+          filter: blur(10px);
+        }
+      }
+    }
+  }
+}
+
+.mobile-legal-view {
+  #main {
+    height: 100%;
+    top: 0;
+    
+    .legal-wrapper {
+      .tab-content .tab-pane {
+        max-height: 85vh;
+      }
+    }
+  }
+  
+  .header, .footer, .cookies-wrapper {
+    display: none !important;
+  }
+}
